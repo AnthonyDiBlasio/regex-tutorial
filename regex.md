@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex tutorial
 
-Introductory paragraph (replace this with your text)
+This tutorial will help a user learn how to create powerful, time-saving expressions in their code.
 
 ## Summary
 
@@ -20,6 +20,10 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+learn about regular expression anchors that allow you to match a position before or after characters.
+Use the ^ anchor to match the beginning of the text.
+Use the $ anchor to match the end of the text.
+Use the m flag to enable the multiline mode that instructs the ^ and $ anchors to match the beginning and end of the text as well as the beginning and end of the line
 
 ### Quantifiers
 
