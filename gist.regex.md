@@ -9,7 +9,7 @@ The following topics will be discussed about reg expressions ...
     - Grouping Constructs -
     - Bracket Expressions -  
     - Character classes - distinguish kinds of characters such as, for example, distinguishing between letters and digits.
-    - The OR Operator - 
+    - The OR Operator - denoted by '|', For example, the regex four|for|floor|4 accepts strings "four", "for", "floor" or "4".
     - Flags -
     - Character Escapes -
 ## Table of Contents
@@ -55,9 +55,32 @@ const regexpFourDigits = /\b\d{4}\b/g;
 console.table(randomData.match(regexpFourDigits));
 // ['8787', '3512', '8735']
 ### The OR Operator
+You can provide alternatives using the "OR" operator, denoted by a vertical bar '|'. 
 
+let regexp = /html|php|css|java(script)?/gi;
+
+let str = "First HTML appeared, then CSS, then JavaScript";
+
+alert( str.match(regexp) ); // 'HTML', 'CSS', 'JavaScript'
 ### Flags
+Regular expressions have optional flags that allow for functionality like global searching and case-insensitive searching. These flags can be used separately or together in any order, and are included as part of the regular expression.
 
+Regular expressions may have flags that affect the search.
+
+There are only 6 of them in JavaScript:
+
+i
+With this flag the search is case-insensitive: no difference between A and a (see the example below).
+g
+With this flag the search looks for all matches, without it – only the first match is returned.
+m
+Multiline mode (covered in the chapter Multiline mode of anchors ^ $, flag "m").
+s
+Enables “dotall” mode, that allows a dot . to match newline character \n (covered in the chapter Character classes).
+u
+Enables full Unicode support. The flag enables correct processing of surrogate pairs. More about that in the chapter Unicode: flag "u" and class \p{...}.
+y
+“Sticky” mode: searching at the exact position in the text (covered in the chapter Sticky flag "y", searching at position)
 ### Character Escapes
 
 ## Author
