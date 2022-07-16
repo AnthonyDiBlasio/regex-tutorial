@@ -12,8 +12,10 @@ SO THAT I can understand the search pattern the regex defines
 * [Tests](#tests)
 * [Questions](#questions)
 ## Installation
-none
+link to gist
+https://gist.github.com/AnthonyDiBlasio/397b98f273ba37739192585a2cce5446
 ## Usage
+
 GIVEN a regex tutorial
 WHEN I open the tutorial
 THEN I see a descriptive title and introductory paragraph explaining the purpose of the tutorial, a summary describing the regex featured in the tutorial, a table of contents linking to different sections that break down each component of the regex and explain what it does, and a section about the author with a link to the author’s GitHub profile
