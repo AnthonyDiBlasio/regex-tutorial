@@ -246,6 +246,7 @@ Escaped Characters
 
 \Z - end of a string before the line break
 ## Author
+Hi my name is Anthony DiBlasio, and I am a web developer who has a passion for learning, creating and exploring new ideas and concepts. I hope this tutorial helps out, thanks for taking a look. 
 [GitHub Profile](https://github.com/anthonydiblasio/)  
 I can be reached at anthony.diblasio11@gmail.com.
 
