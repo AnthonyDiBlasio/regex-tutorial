@@ -13,7 +13,7 @@ SO THAT I can understand the search pattern the regex defines
 * [Questions](#questions)
 ## Installation
 link to gist
-https://gist.github.com/AnthonyDiBlasio/397b98f273ba37739192585a2cce5446
+ 
 ## Usage
 
 GIVEN a regex tutorial
